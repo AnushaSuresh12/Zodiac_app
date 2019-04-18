@@ -1,0 +1,14 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "A Zodiac application",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}
