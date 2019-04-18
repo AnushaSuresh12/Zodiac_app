@@ -25,21 +25,22 @@
        <h1>Welcome to Zodiac Application </h1>
        <div class="row">
            <div class="col-md-4">
-               <img src="./client/Images/Zodiac.jpg" class="image_style">
+               <img src="./client/Images/zodiacs.jpg" class="image_style">
                <hr>
                <form>
                    <div class="form-group">
                        <input type="text" id="user-search" placeholder="Type Zodiac name..." class="form-control">
                    </div>
                    <div class="form-group">
-                       <button class="btn btn-danger" type="button">Find</button>
+                       <button class="btn btn-danger"   onclick="getData()" type="button">Find</button>
                    </div>
                </form>
            </div>
            <div class="col-md-4">
-               <p>
-                   result will display here
-               </p>
+               <h2 id="name"></h2>
+               <h5 id="month"></h5>
+               <img id="img" class="image_style">
+               <p id="text-result"></p>
            </div>
        </div>
 
