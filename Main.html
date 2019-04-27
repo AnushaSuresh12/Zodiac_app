@@ -18,10 +18,10 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="Main.html">Zodiac App</a>
 </nav>
-   <div class="container">
+   <div  id="main-body" class="container">
        <h1>Welcome to Zodiac Application </h1>
        <div class="row">
            <div class="col-md-4">
@@ -36,13 +36,22 @@
                    </div>
                </form>
            </div>
-           <div class="col-md-4">
-               <h2 id="name"></h2>
-               <h5 id="month"></h5>
-               <img id="img" class="image_style">
-               <p id="text-result"></p>
+           <div class="col-md-5">
+               <h2 class="mt-0" id = "name"></h2>
+               <h4 id="month"></h4>
+               <div class="media">
+                   <img class="mr-3" id = "img" class="image_style">
+                <div class="media-body">
+                   </div>
+               </div>
+               <p id ="text-result"></p>
+
            </div>
        </div>
+       <!--- <h2 id="name"></h2>
+            <h5 id="month"></h5>
+            <img id="img" class="image_style">
+            <p id="text-result"></p> -->
 
    </div>
 
